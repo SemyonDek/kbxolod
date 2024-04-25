@@ -1,0 +1,295 @@
+.basket-table-block {
+    margin: 30px 0;
+}
+
+.basket-table-block table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.basket-table-block thead td {
+    border-top: 1px solid #e9ecef;
+    padding: 0.3rem;
+    vertical-align: bottom;
+    border-bottom: 2px solid #e9ecef;
+    color: #fff;
+    background-color: #763564;
+    border-color: #763564;
+    font-weight: 600;
+}
+
+
+.basket-table-block tbody td {
+    border-top: 1px solid #e9ecef;
+    padding: 0.3rem;
+    vertical-align: middle !important;
+}
+
+td.img {
+    width: 80px;
+}
+
+.img-prod-block {
+    width: 100%;
+}
+
+.img-prod-block img {
+    max-width: 100%;
+}
+
+
+td.minus, td.plus {
+    width: 39px;
+}
+
+td.minus span, td.plus span {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: #763564;
+    background-color: transparent;
+    background-image: none;
+    border-color: #763564;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+td.minus span:hover, td.plus span:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #763564;
+    border-color: #763564;
+    cursor: pointer;
+}
+
+.minus-icon {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+}
+
+.minus-icon:before {
+    content: "\f068";
+}
+
+.plus-icon {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+}
+
+.plus-icon:before {
+    content: "\f067";
+}
+
+
+td.value {
+    width: 50px;
+    text-align: center;
+}
+
+td.value span {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #868e96;
+    font-size: 14px;
+    padding: 7px 8px;
+}
+
+td.del {
+    width: 40px;
+}
+
+td.del span {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: #dc3545;
+    background-color: transparent;
+    background-image: none;
+    border-color: #dc3545;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+td.del span:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    cursor: pointer;
+}
+
+.del-icon {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+}
+
+.del-icon:before {
+    content: "\f014";
+}
+
+td.name-amount {
+    text-align: right;
+}
+
+span.p1 {
+    font-size: 20px;
+    color: black;
+}
+
+span.p2 {
+    font-size: 13px;
+    color: gray;
+}
+
+.add-order-block {
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+    vertical-align: top;
+    width: 100%;
+}
+
+.add-order-block h2 {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.user-info-block {
+    padding: 1.25rem;
+}
+
+.input-block {
+    margin-bottom: 1rem;
+}
+
+.name-input {
+    margin-bottom: 0.5rem;
+}
+
+.input-block input {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    touch-action: manipulation;
+}
+
+.input-block textarea {
+    display: block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 115px;
+    min-height: 115px;
+    max-height: 115px;
+}
+
+input:focus, textarea:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #bd6da7;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(118, 53, 100, .25);
+}
+
+.input-block input[type="file"]::file-selector-button {
+    height: 30px;
+}
+
+.btn-primary {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+    color: #fff;
+    background-color: #763564;
+    border-color: #763564;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #5c294e;
+    border-color: #532546;
+}

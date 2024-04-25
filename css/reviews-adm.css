@@ -1,0 +1,26 @@
+.product-name {
+    width: 78%;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.status-review {
+    width: 22%;
+    font-size: 14px;
+    text-align: right;
+}
+
+.add-review-adm {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 600;
+    color: green;
+    cursor: pointer;
+}
+
+.del-review-adm {
+    color: red;
+    font-weight: 600;
+    cursor: pointer;
+}

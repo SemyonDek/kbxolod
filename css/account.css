@@ -1,0 +1,77 @@
+.orders-block {
+    width: 100%;
+}
+
+.orders-block table {
+    width: 100%;
+    /* max-width: 100%; */
+    border-collapse: collapse;
+}
+
+.orders-block thead td {
+    border-top: 1px solid #e9ecef;
+    padding: 0.3rem;
+    vertical-align: bottom;
+    border-bottom: 2px solid #e9ecef;
+    color: #fff;
+    background-color: #763564;
+    border-color: #763564;
+    font-weight: 600;
+    text-align: center;
+}
+
+.orders-block tbody td {
+    border-bottom: 1px solid #e9ecef;
+    padding: 0.3rem;
+    vertical-align: middle !important;
+}
+
+td.number {
+    width: 40px;
+    text-align: center;
+}
+
+td.products {
+    width: 220px;
+}
+
+td.value {
+    width: 70px;
+    text-align: center;
+}
+
+td.amount {
+    width: 100px;
+    text-align: center;
+}
+
+td.info {
+    width: 200px;
+}
+
+td.file {
+    width: 60px;
+    text-align: center;
+}
+
+td.file a {
+    color: #763564;
+    text-decoration: none;
+}
+
+td.status {
+    width: 100px;
+    text-align: center;
+}
+
+.yes_status {
+    color: green;
+}
+
+.no_status {
+    color: red;
+}
+
+.btn_status {
+    cursor: pointer;
+}
